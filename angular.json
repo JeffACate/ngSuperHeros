@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngSuperheros": {
+    "ngSuperHeroes": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ngSuperheros:build:production"
+              "browserTarget": "ngSuperHeroes:build:production"
             },
             "development": {
-              "browserTarget": "ngSuperheros:build:development"
+              "browserTarget": "ngSuperHeroes:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngSuperheros:build"
+            "browserTarget": "ngSuperHeroes:build"
           }
         },
         "test": {
